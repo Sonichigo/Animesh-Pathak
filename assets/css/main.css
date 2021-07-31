@@ -34,6 +34,7 @@ section {
 h1 {
     margin: .67em 0;
     font-size: 2.5rem;
+    color: white;
 }
 
 figure {
@@ -4789,7 +4790,7 @@ strong {
     margin-top: 1em;
     padding-top: 1em;
     line-height: 1.25;
-    color: #333
+    color: white;
 }
 
 h2 {
@@ -4813,7 +4814,8 @@ figure,
 ol,
 p,
 ul {
-    margin: 1em 0
+    margin: 1em 0;
+    color: white;
 }
 
 a img {
@@ -4838,6 +4840,23 @@ a img {
 }
 
 #particles-js .particles-js-canvas-el {
+    width: 100% !important;
+    height: 100vh !important
+}
+#particles-js1 {
+    background: #000000;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #171718, #030607);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right,#2a2994, #242455 );
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    width: 100%;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+}
+
+#particles-js1 .particles-js-canvas-el {
     width: 100% !important;
     height: 100vh !important
 }
