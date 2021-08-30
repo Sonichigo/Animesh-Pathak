@@ -4846,9 +4846,9 @@ a img {
 #particles-js1 {
     background: #1488CC;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #02074e, #1488CC);
+    background: -webkit-linear-gradient(to right, #000000, #1488CC);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right,#02074e, #1488CC );
+    background: linear-gradient(to right,#000000, #000000 );
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     width: 100%;
@@ -5100,12 +5100,12 @@ a img {
 }
 
 .project-link {
-    display: inline-block;
+    display: inline;
     margin: 10px 0;
     padding: 5px;
-    color: #000000;
+    color: #66afaf;
     background-color: transparent;
-    border: 1px solid #000000;
+    border: 1px solid #66afaf;
     border-radius: 10px;
     text-align: center;
     outline: 0;
@@ -5130,7 +5130,7 @@ a img {
     background: linear-gradient(to right, #00ca9e, #1488CC);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding: 10px 0;
-    margin-top: 100px;
+    margin-top: 10px;
     text-align: center;
     color: #fff
 }
